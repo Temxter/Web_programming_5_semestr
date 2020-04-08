@@ -1,0 +1,4 @@
+This is program with code. The second sentence.
+{a { print (\"hello!\")} } The end of code and start new sentece.
+{ if this is the code then go to parse code}
+The last sentence!

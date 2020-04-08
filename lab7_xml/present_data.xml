@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<present
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <candy>
+        <name>Alenka</name>
+        <weight>100</weight>
+        <type>Chocolate</type>
+        <consist>milk, cocao, sugar</consist>
+    </candy>
+    <candy>
+        <name>Sorvanec</name>
+        <weight>20</weight>
+        <type>Candy</type>
+        <consist>milk, cocao, sugar, flour</consist>
+    </candy>
+    <candy>
+        <name>Truffles</name>
+        <weight>300</weight>
+        <type>Candy</type>
+        <consist>milk, cocao, sugar</consist>
+    </candy>
+</present>

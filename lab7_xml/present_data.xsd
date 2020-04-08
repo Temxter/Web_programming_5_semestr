@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="name" type="xs:string"/>
+    <xs:element name="weight" type="xs:double"/>
+    <xs:element name="type" type="xs:string"/>
+    <xs:element name="consist" type="xs:string"/>
+    <xs:element name="candy">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="weight"/>
+                <xs:element ref="type"/>
+                <xs:element ref="consist"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="present">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="candy" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
